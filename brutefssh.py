@@ -5,7 +5,7 @@ import threading
 host = input("Enter the host(target Machine..) :")
 username = input("Enter Username: ")
 wordlist_path = input("Enter wordlist's path(Ex : .../.../.../) : ")
-port = 8022
+port = int(input("Enter SSH port ( Default 22) : "))
 found = False
 
 def brute_force(password):
