@@ -10,6 +10,7 @@ It uses the Paramiko library to establish SSH connections and tests each
 
 password until the correct one is found or the wordlist is exhausted.
 
+-------------------------------------------------------------------------------------------------
 Features
 
 Multithreaded password attempts
@@ -20,6 +21,7 @@ Stops when the correct password is found
 
 Handles authentication errors and connection errors
 
+-------------------------------------------------------------------------------------------------
 Requirements
 
 Python 3/ paramiko library
@@ -27,6 +29,7 @@ Python 3/ paramiko library
 Install dependency:
 pip install paramiko
 
+-------------------------------------------------------------------------------------------------
 Usage 
 
 Run the script -> python brutefssh.py
@@ -38,6 +41,9 @@ Target host IP
 SSH username
 
 Wordlist file path
+
+-------------------------------------------------------------------------------------------------
+Exemple
 
 Enter the host(target Machine..) : 192.168.1.10
 
