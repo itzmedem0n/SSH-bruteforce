@@ -36,7 +36,7 @@ Run the script -> python brutefssh.py
 
 You will be prompted for:
 
-Target host IP
+Target host IP and port(22 as Default)
 
 SSH username
 
@@ -46,6 +46,8 @@ Wordlist file path
 Exemple
 
 Enter the host(target Machine..) : 192.168.1.10
+
+Enter SSH port (default 22): 22
 
 Enter Username: user
 
